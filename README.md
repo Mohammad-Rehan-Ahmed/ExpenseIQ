@@ -154,7 +154,7 @@ ExpenseIQ/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ExpenseIQ.git
+git clone https://github.com/Mohammad-Rehan-Ahmed/ExpenseIQ.git
 ```
 
 ---
