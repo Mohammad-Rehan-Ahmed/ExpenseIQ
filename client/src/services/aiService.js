@@ -1,8 +1,6 @@
-import axios from "axios";
-
-const API = "https://expenseiq-mqof.onrender.com/api/ai";
+import API from "./api";
 
 export const getAIAnalysis = async () => {
-    const res = await axios.get(`${API}/analyze`);
+    const res = await API.get("/ai/analyze");
     return res.data;
 };
