@@ -3,7 +3,9 @@ const axios = require("axios");
 const getPrediction = async (req, res) => {
     try {
 
-        const response = await axios.get("http://127.0.0.1:8000/predict");
+        const response = await axios.get(
+    `${process.env.PYTHON_API_URL}/predict`
+);
 
         res.json(response.data);
 
